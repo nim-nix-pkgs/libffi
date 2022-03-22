@@ -9,7 +9,7 @@
   
   inputs.src-libffi-master.flake = false;
   inputs.src-libffi-master.owner = "Araq";
-  inputs.src-libffi-master.ref   = "refs/heads/master";
+  inputs.src-libffi-master.ref   = "master";
   inputs.src-libffi-master.repo  = "libffi";
   inputs.src-libffi-master.type  = "github";
   
