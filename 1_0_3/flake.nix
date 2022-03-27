@@ -11,6 +11,7 @@
   inputs.src-libffi-1_0_3.ref   = "refs/tags/1.0.3";
   inputs.src-libffi-1_0_3.owner = "Araq";
   inputs.src-libffi-1_0_3.repo  = "libffi";
+  inputs.src-libffi-1_0_3.dir   = "";
   inputs.src-libffi-1_0_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

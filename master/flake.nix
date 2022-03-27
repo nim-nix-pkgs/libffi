@@ -11,6 +11,7 @@
   inputs.src-libffi-master.ref   = "refs/heads/master";
   inputs.src-libffi-master.owner = "Araq";
   inputs.src-libffi-master.repo  = "libffi";
+  inputs.src-libffi-master.dir   = "";
   inputs.src-libffi-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
